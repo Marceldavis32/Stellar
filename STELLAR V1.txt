@@ -1,0 +1,231 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Aimbot = Instance.new("TextButton")
+local OwlHub = Instance.new("TextButton")
+local WildWest1 = Instance.new("TextButton")
+local WildWest2 = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local openmain = Instance.new("Frame")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderColor3 = Color3.fromRGB(255, 0, 0)
+main.BorderSizePixel = 5
+main.Position = UDim2.new(0.346909106, 0, 0.299754232, 0)
+main.Size = UDim2.new(0, 600, 0, 294)
+main.Visible = false
+main.Active = true
+main.Draggable = true
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = main
+Aimbot.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Aimbot.BorderSizePixel = 3
+Aimbot.Position = UDim2.new(0.676869392, 0, 0.287592113, 0)
+Aimbot.Size = UDim2.new(0, 180, 0, 50)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(255, 0, 0)
+Aimbot.TextSize = 30.000
+Aimbot.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marceldavis32/Aimbot/main/message(1).txt"))();
+end)
+
+OwlHub.Name = "Owl Hub"
+OwlHub.Parent = main
+OwlHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OwlHub.BorderColor3 = Color3.fromRGB(255, 0, 0)
+OwlHub.BorderSizePixel = 3
+OwlHub.Position = UDim2.new(0.0225531794, 0, 0.284190804, 0)
+OwlHub.Size = UDim2.new(0, 180, 0, 50)
+OwlHub.Font = Enum.Font.SourceSans
+OwlHub.Text = "Aimbot"
+OwlHub.TextColor3 = Color3.fromRGB(255, 0, 0)
+OwlHub.TextSize = 30.000
+OwlHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+end)
+
+
+WildWest1.Name = "Wild West 1"
+WildWest1.Parent = main
+WildWest1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WildWest1.BorderColor3 = Color3.fromRGB(255, 0, 0)
+WildWest1.BorderSizePixel = 3
+WildWest1.Position = UDim2.new(0.676869392, 0, 0.759897232, 0)
+WildWest1.Size = UDim2.new(0, 180, 0, 50)
+WildWest1.Font = Enum.Font.SourceSans
+WildWest1.Text = "Wild West"
+WildWest1.TextColor3 = Color3.fromRGB(255, 0, 0)
+WildWest1.TextSize = 30.000
+WildWest1.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+WildWest1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/gGtYE8mc'))() 
+end)
+
+
+WildWest2.Name = "Wild West 2"
+WildWest2.Parent = main
+WildWest2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WildWest2.BorderColor3 = Color3.fromRGB(255, 0, 0)
+WildWest2.BorderSizePixel = 3
+WildWest2.Position = UDim2.new(0.0209705234, 0, 0.759001911, 0)
+WildWest2.Size = UDim2.new(0, 180, 0, 50)
+WildWest2.Font = Enum.Font.SourceSans
+WildWest2.Text = "Wild West"
+WildWest2.TextColor3 = Color3.fromRGB(255, 0, 0)
+WildWest2.TextSize = 30.000
+WildWest2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://thisstuff.xyz/Api/WOAHSCRIPTS/1257821635-9356095531/oOAfkpCWzDWsn4CjuLZLZOs3vCf4rgUMhXaJd32VyHSs2tojOCTUKINNTbAuTTCGFrYTyMeBDEIfdo7C0Sp5EnCyxN80pHf5jpqk2xU7f1LAcx2Nt1cZe", true))()
+end)
+
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderColor3 = Color3.fromRGB(255, 0, 0)
+InfiniteYield.BorderSizePixel = 3
+InfiniteYield.Position = UDim2.new(0.34891957, 0, 0.523327529, 0)
+InfiniteYield.Size = UDim2.new(0, 180, 0, 50)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 0, 0)
+InfiniteYield.TextSize = 30.000
+InfiniteYield.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 600, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Stellar V1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 50.000
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.154320985, 0)
+TextLabel_2.Size = UDim2.new(0, 600, 0, 9)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.876666665, 0, 0, 0)
+close.Size = UDim2.new(0, 74, 0, 45)
+close.Font = Enum.Font.SourceSans
+close.Text = "-"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextSize = 70.000
+close.MouseButton1Down:connect(function()
+main.Visible = false
+openmain.Visible = true
+end)
+
+openmain.Name = "openmain"
+openmain.Parent = ScreenGui
+openmain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+openmain.Position = UDim2.new(0.0341818184, 0, 0.490171969, 0)
+openmain.Size = UDim2.new(0, 158, 0, 50)
+openmain.Active = true
+openmain.Draggable = true
+
+open.Name = "open"
+open.Parent = openmain
+open.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderColor3 = Color3.fromRGB(255, 0, 0)
+open.BorderSizePixel = 3
+open.Position = UDim2.new(-0.00518986583, 0, -0.0119230151, 0)
+open.Size = UDim2.new(0, 158, 0, 50)
+open.Font = Enum.Font.SourceSans
+open.Text = "OPEN"
+open.TextColor3 = Color3.fromRGB(255, 0, 0)
+open.TextSize = 40.000
+open.MouseButton1Down:connect(function()
+openmain.Visible = false
+main.Visible = true
+end)
+
+-- Scripts:
+
+local function HXWPUZR_fake_script() -- TextLabel.Script 
+	local script = Instance.new('Script', TextLabel)
+
+	local r = { 
+		Color3.fromRGB(255, 0, 0); 
+		Color3.fromRGB(255, 119, 0); 
+		Color3.fromRGB(251, 255, 14); 
+		Color3.fromRGB(0, 255, 0); 
+		Color3.fromRGB(0, 200, 0);
+		Color3.fromRGB(0, 132, 0);
+		Color3.fromRGB(0, 255, 255); 
+		Color3.fromRGB(0, 160, 199);
+		Color3.fromRGB(0, 0, 129);
+		Color3.fromRGB(255, 0, 127);
+		Color3.fromRGB(255, 0, 255);
+		Color3.fromRGB(136, 0, 204)}
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.TextColor3 = r[1] 
+	i = 1
+	while true do
+		local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+			TextColor3 = r[i]}) 
+		tween:Play()
+		repeat wait() until tween.Completed
+		wait(2)
+		if i == #r then i = 1 else i = i + 1 end
+	end
+end
+coroutine.wrap(HXWPUZR_fake_script)()
+local function GUACTHV_fake_script() -- open.Script 
+	local script = Instance.new('Script', open)
+
+	local r = { 
+		Color3.fromRGB(255, 0, 0); 
+		Color3.fromRGB(255, 119, 0); 
+		Color3.fromRGB(251, 255, 14); 
+		Color3.fromRGB(0, 255, 0); 
+		Color3.fromRGB(0, 200, 0);
+		Color3.fromRGB(0, 132, 0);
+		Color3.fromRGB(0, 255, 255); 
+		Color3.fromRGB(0, 160, 199);
+		Color3.fromRGB(0, 0, 129);
+		Color3.fromRGB(255, 0, 127);
+		Color3.fromRGB(255, 0, 255);
+		Color3.fromRGB(136, 0, 204)}
+	local info = TweenInfo.new(0.2, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut, 0, false, 0)
+	script.Parent.BorderColor3 = r[1] 
+	i = 1
+	while true do
+		local tween = game:GetService("TweenService"):Create(script.Parent, info, {
+			BorderColor3 = r[i]}) 
+		tween:Play()
+		repeat wait() until tween.Completed
+		wait(2)
+		if i == #r then i = 1 else i = i + 1 end
+	end
+	
+end
+coroutine.wrap(GUACTHV_fake_script)()
